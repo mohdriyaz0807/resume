@@ -7,13 +7,9 @@ class Header extends Component {
     if(this.props.data){
        var linkedin = this.props.data.linkedin;
        var github = this.props.data.github;
-       var twitter = this.props.data.twitter;
+       var email = this.props.data.email;
       var name = this.props.data.name;
       var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
     }
 
     return (
@@ -40,8 +36,9 @@ class Header extends Component {
             <h3>{description}.</h3>
             <hr />
             <ul className="social">
-               <a href={github} className="github-btn"><i className="fa fa-github"></i></a> 
-               <a href={linkedin} className="linkedin-btn"><i className="fa fa-linkedin"></i></a>
+               <a href={github} target="_blank" className="github-btn"><i className="fa fa-github"></i></a> 
+               <a href={linkedin} target="_blank" className="linkedin-btn"><i className="fa fa-linkedin"></i></a>
+               <a href={email} target="_blank" className="mail-btn"><i className="fa fa-envelope"></i></a>
             </ul>
          </div>
       </div>

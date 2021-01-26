@@ -1014,7 +1014,7 @@ footer .social-links li:first-child { margin-left: 0; }
 .social .btn i{
    margin-right: 15px;
 }
-.linkedin-btn, .github-btn{
+.linkedin-btn, .github-btn, .mail-btn{
    text-align: center;
    padding: 25px;
 }
@@ -1032,10 +1032,10 @@ footer .social-links li:first-child { margin-left: 0; }
    color:blanchedalmond;
    background-color: rgb(255, 255, 255);
 }
-.fa-github, .fa-linkedin{
+.fa-github, .fa-linkedin, .fa-envelope{
    color: rgb(25, 255, 25);
    font-size: 150%;
 }
-.fa-github:hover, .fa-linkedin:hover{
+.fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover{
    color:black
 }

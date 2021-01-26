@@ -4,7 +4,7 @@ let resumedata= {
     "image":"",
     "bio":"I am a Full Stack developer and I use reactjs and nodejs to develop Web projects. Learning through Practice keeps me Motivated to upskill my knowledge and currently looking for a full time oppurtunity",
     "contactmessage":"Contact Me! I can give you the Best.",
-    "email": "mohdriyaz0807@gmail.com",
+    "email": "mailto:mohdriyaz0807@gmail.com",
     "phone": "822-082-9517",
     "github":"https://github.com/mohdriyaz0807",
     "linkedin":"https://www.linkedin.com/in/mohamed-riyaz-a03460148",
@@ -14,35 +14,7 @@ let resumedata= {
       "state":"TamilNadu",
       "zip": "620004"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
-      }
-    ],
+    "resumedownload":"",
   "resume":{
     "skillmessage":"Skills I practiced so far...",
     "education":[
