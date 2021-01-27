@@ -13,10 +13,18 @@ class Contact extends Component {
       var message = this.props.data.contactmessage;
     }
 
-
+   let sub=''
+   let msg=''   
+    const handleChange=(e)=>{
+       if(e.target.name==="subject"){
+      sub=e.target.value
+       }else{
+         msg=e.target.value
+         }
+      }
       const handleClick = () => {
         window.open(
-          `mailto:mohdriyaz0807@gmail.com`
+          `mailto:mohdriyaz0807@gmail.com?subject=${sub}&body=${msg}`
         )
       }
       
@@ -46,7 +54,7 @@ class Contact extends Component {
 					<fieldset>
 
                   <div>
-						   <input placeholder="Name *" type="text" defaultValue="" size="35" id="contactName" name="subject" onChange={this.handleChange}/>
+						   <input placeholder="Name *" type="text" defaultValue="" size="35" id="contactName" name="subject" onChange={handleChange}/>
                   </div>
 
                   <div>
@@ -54,7 +62,7 @@ class Contact extends Component {
                   </div>
 
                   <div >
-                     <textarea placeholder="Message *" cols="20" rows="3" id="contactMessage" name="body" onChange={this.handleChange}></textarea>
+                     <textarea placeholder="Message *" cols="20" rows="3" id="contactMessage" name="body" onChange={handleChange}></textarea>
                   </div>
                   <div>
                      <button className="submit" type="button" onClick={handleClick}>Submit</button>

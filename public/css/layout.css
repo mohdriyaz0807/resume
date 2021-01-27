@@ -139,7 +139,7 @@ header .scrolldown a:hover { color: #0762f9; }
 .opaque { background-color: rgb(50, 100, 43); }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none;background-color: #ffffff }
+#nav-wrap > a.mobile-btn { display: none;background-color: #000000 }
 #nav-wrap > a.mobile-btn:hover{background-color: greenyellow;}
 ul#nav {
    min-height: 48px;
