@@ -13,6 +13,13 @@ class Contact extends Component {
       var message = this.props.data.contactmessage;
     }
 
+
+      const handleClick = () => {
+        window.open(
+          `mailto:mohdriyaz0807@gmail.com`
+        )
+      }
+      
     return (
       <section id="contact">
 
@@ -33,34 +40,30 @@ class Contact extends Component {
          </div>
 
          <div className="row">
-            <div className="eight columns">
+            <div className="nine columns">
 
-               <form action="#" method="post" id="contactForm" name="contactForm">
+               <div id="contactForm" name="contactForm">
 					<fieldset>
 
-
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input placeholder="Name *" type="text" defaultValue="" size="35" id="contactName" name="subject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input placeholder="Email *" type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" />
                   </div>
 
                   <div >
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="20" rows="3" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea placeholder="Message *" cols="20" rows="3" id="contactMessage" name="body" onChange={this.handleChange}></textarea>
                   </div>
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit" type="button" onClick={handleClick}>Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
                   </div>
 					</fieldset>
-				   </form>
+				   </div>
 
            <div id="message-warning"> Error </div>
 				   <div id="message-success">
@@ -68,21 +71,21 @@ class Contact extends Component {
 				   </div>
            </div>
 
-            <aside className="four columns footer-widgets">
+            <aside className="three columns footer-widgets">
                <div className="widget widget_contact">
-					   <h4>Address and Phone</h4>
-					   <p className="address">
+					   <h3>Address and Phone</h3>
+					   <h6 className="address">
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span>
-					   </p>
+					   </h6>
 				   </div>
             </aside>
       </div>
    </section>
-    );
-  }
+      );
+   }
 }
 
 export default Contact;

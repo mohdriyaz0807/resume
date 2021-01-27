@@ -784,10 +784,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #e6e4e4;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #ffffff;
+   color: #000000;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -798,7 +798,7 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #ffd901;
+   color: #2b7c29;
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -810,12 +810,12 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fffb0b;
+   color: #2b7c29;
 }
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #f0d90a;
+   color: #2b7c29;
    margin-bottom: 6px;
 }
 #contact p.lead {
@@ -830,7 +830,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: #000000;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -840,7 +840,7 @@ call-to-action .button {
 #contact select {
    padding: 10px 20px;
 	color: rgb(0, 0, 0);
-	background: #979790;
+	background: #fcfce5;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -852,13 +852,13 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: rgb(0, 0, 0);
-	background-color: #f5f907;
+	background-color: #72d654;
 }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
+	background:#fff;
+   color: #0D0D0D;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -867,8 +867,8 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
+	color: #fff;
+	background: #0D0D0D ;
 }
 #contact span.required {
 	color: #0762f9;
@@ -897,23 +897,6 @@ call-to-action .button {
 }
 
 
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
 
 
 /* ------------------------------------------------------------------ */
@@ -945,7 +928,7 @@ footer .copyright li {
     line-height: 24px;
     font-size: x-large;
     font-weight: bold;
-    color:black
+    color:rgb(255, 255, 255)
 }
 .ie footer .copyright li {
    display: inline;
@@ -989,7 +972,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #ffffff;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -997,12 +980,12 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: rgb(133, 133, 133);
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #000000; }
 
 
 .social .btn:first-child{
