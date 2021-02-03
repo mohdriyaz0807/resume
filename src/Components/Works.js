@@ -10,7 +10,6 @@ class Works extends Component {
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <h3>{projects.title}</h3>
                 <img alt={projects.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
