@@ -81,7 +81,7 @@ let resumedata= {
       {
         "title":"Easy CRM",
         "category":"A simple CRM for manging ,access and update for all Business",
-        "image":"Crm.PNG",
+        "image":"crm.PNG",
         "github":"https://github.com/mohdriyaz0807/crm-frontend",
         "deployed":"https://easy-crm.netlify.app/",
         "stack":['ReactJs','CSS','MongoDB','NodeJS','ExpressJs','Material-UI']
