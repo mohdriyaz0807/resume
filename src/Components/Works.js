@@ -10,15 +10,20 @@ class Works extends Component {
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <a href={projects.url} title={projects.title}>
+              <h3>{projects.title}</h3>
                 <img alt={projects.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>{projects.title}</h5>
                     <p>{projects.category}</p>
+                    <h6>Technologies Used</h6>
+                    <ul>{projects.stack.map(ele=>{
+                      return(<li>{ele}</li>)
+                    })}</ul>
+                    <button href={projects.deployed}>Live Site</button>
+                    <button href={projects.github}>View Code</button>
                   </div>
                 </div>
-              </a>
             </div>
           </div>
         )

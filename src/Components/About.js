@@ -20,7 +20,7 @@ class About extends Component {
          <div className="eight columns main-col">
             <h2>{bio}</h2>
             <div className="buttonDiv">
-            <a href={resumeDownload} className="res-button"><i className="fa fa-file"></i>  Resume</a>
+            <a href={resumeDownload} target="_blank" className="res-button"><i className="fa fa-file"></i>  Resume</a>
          </div>
          </div>
          <div className="four columns">
