@@ -34,7 +34,7 @@ class Works extends Component {
 
             <h1>My Works</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-halves cf">
+            <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
               {projects}
             </div>
           </div>

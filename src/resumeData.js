@@ -63,35 +63,33 @@ let resumedata= {
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Github User Finder",
+        "category":"Github Clone for Finding Github User with Username",
+        "image":"",
+        "github":"https://github.com/mohdriyaz0807/GitHub-clone-Hackathon",
+        "deployed":"https://reverent-kepler-61ac7c.netlify.app/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Pizza Corner",
+        "category":"A simple website for pizza ordering and delivery",
+        "image":"",
+        "github":"",
+        "deployed":""
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Easy CRM",
+        "category":"A simple CRM for manging ,access and update for all Business",
+        "image":"",
+        "github":"",
+        "deployed":""
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"URL shortener",
+        "category":"A simple url shortener website for where you can see the click count",
+        "image":"",
+        "github":"",
+        "deployed":"https://url-shortener-frontend-jwt.netlify.app/"
       },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
     ]
   }
 }
