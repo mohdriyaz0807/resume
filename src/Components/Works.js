@@ -19,8 +19,8 @@ class Works extends Component {
                     <ul>{projects.stack.map(ele=>{
                       return(<li>{ele}</li>)
                     })}</ul>
-                    <button href={projects.deployed}>Live Site</button>
-                    <button href={projects.github}>View Code</button>
+                    <a href={projects.deployed} target="_blank"><button>Live Site</button></a>
+                    <a href={projects.deployed} target="_blank"><button>View Code</button></a>
                   </div>
                 </div>
             </div>
