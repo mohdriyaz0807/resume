@@ -6,10 +6,8 @@ class Works extends Component {
     if (this.props.data) {
       var projects = this.props.data.projects.map(function (projects) {
         var projectImage = 'images/portfolio/' + projects.image;
-        
         return (
-          <div key={projects.title} className="columns portfolio-item">
-            <div className="item-wrap">
+          <div key={projects.title} className="columns portfolio-item">            <div className="item-wrap">
                 <img alt={projects.title} src={projectImage} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -19,11 +17,12 @@ class Works extends Component {
                     <ul>{projects.stack.map(ele=>{
                       return(<li>{ele}</li>)
                     })}</ul>
-                    <a href={projects.deployed} target="_blank"><button>Live Site</button></a>
-                    <a href={projects.deployed} target="_blank"><button>View Code</button></a>
                   </div>
                 </div>
             </div>
+            <br/>
+              <a href={projects.deployed} target="_blank"><button type="button">Live Site</button></a>
+              <a href={projects.github} target="_blank"><button type="button">View Code</button></a>
           </div>
         )
       })
