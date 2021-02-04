@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+   constructor(props){
+      super(props)
+      this.state={sub:'',msg:''}
+   }
   render() {
 
     if(this.props.data){
@@ -10,21 +14,18 @@ class Contact extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
-      var message = this.props.data.contactmessage;
     }
-
-   let sub=''
-   let msg=''   
     const handleChange=(e)=>{
        if(e.target.name==="subject"){
-      sub=e.target.value
+      this.setState({sub:e.target.value})
        }else{
-         msg=e.target.value
+         this.setState({msg:e.target.value})
          }
       }
-      const handleClick = () => {
+      const handleClick = (e) => {
+         e.preventDefault()
         window.open(
-          `mailto:mohdriyaz0807@gmail.com?subject=${sub}&body=${msg}`
+          `mailto:mohdriyaz0807@gmail.com?subject=${this.state.sub}&body=${this.state.msg}`
         )
       }
       
@@ -35,13 +36,7 @@ class Contact extends Component {
 
             <div className="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div className="ten columns">
-
-                  <p className="lead">{message}</p>
+               <h1><span>Message Me</span></h1>
 
             </div>
 
@@ -52,24 +47,25 @@ class Contact extends Component {
 
                <div id="contactForm" name="contactForm">
 					<fieldset>
-
+                  <form onSubmit={handleClick}>
                   <div>
-						   <input placeholder="Name *" type="text" defaultValue="" size="35" id="contactName" name="subject" onChange={handleChange}/>
+						   <input placeholder="Name *" type="text" defaultValue="" size="35" id="contactName" name="subject" onChange={handleChange} required/>
                   </div>
 
                   <div>
-						   <input placeholder="Email *" type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" />
+						   <input placeholder="Email *" type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" required/>
                   </div>
 
                   <div >
-                     <textarea placeholder="Message *" cols="20" rows="3" id="contactMessage" name="body" onChange={handleChange}></textarea>
+                     <textarea placeholder="Message *" cols="20" rows="3" id="contactMessage" name="body" onChange={handleChange} required></textarea>
                   </div>
                   <div>
-                     <button className="submit" type="button" onClick={handleClick}>Submit</button>
+                     <button className="submit" type="submit" >Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
                   </div>
+                  </form>
 					</fieldset>
 				   </div>
 
@@ -85,7 +81,7 @@ class Contact extends Component {
 					   <h6 className="address">
 						   {name}<br />
 						   {street} <br />
-						   {city}, {state} {zip}<br />
+						   {city}, {state} - {zip}<br />
 						   <span>{phone}</span>
 					   </h6>
 				   </div>

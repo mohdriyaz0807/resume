@@ -26,7 +26,7 @@
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-body{background-color: rgb(50, 100, 43);}
+body{background-color: rgb(19, 49, 15);}
 
 header {
    position: relative;
@@ -55,8 +55,8 @@ header .banner {
 }
 
 header .banner-text { width: 100%; }
-header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+header .banner-text h2 {
+   font: 40px/1em 'opensans-bold', sans-serif;
    color: rgb(255, 255, 255);
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -135,11 +135,12 @@ header .scrolldown a:hover { color: #0762f9; }
    position: fixed;
    left: 0;
    top: 0;
+   display:block
 }
 .opaque { background-color: rgb(50, 100, 43); }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none;background-color: #000000 }
+#nav-wrap > a.mobile-btn { display: none;background-color: #ffffff }
 #nav-wrap > a.mobile-btn:hover{background-color: greenyellow;}
 ul#nav {
    min-height: 48px;
@@ -176,7 +177,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; color:yellow}
-ul#nav li a:hover { color: black; }
+ul#nav li a:hover { color: rgb(69, 250, 53); }
 
 
 /* ------------------------------------------------------------------ */
@@ -194,7 +195,7 @@ ul#nav li a:hover { color: black; }
 #about a:hover, #about a:focus { color: #0762f9; }
 #about .head{
    text-align:center;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
    font-size: xx-large;
 }
 #about .buttonDiv{
@@ -212,9 +213,9 @@ ul#nav li a:hover { color: black; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 270px;
+   height: 250px;
+   border-radius: 50%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -312,7 +313,8 @@ ul#nav li a:hover { color: black; }
    text-align: center;
 }
 .icon{
-   width:100px
+   width:60%;
+   margin-top: -5;
 }
 /*
 .git {
@@ -864,7 +866,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: rgb(0, 0, 0);
-	background-color: #72d654;
+	background-color: #abff8f;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -908,9 +910,6 @@ call-to-action .button {
    top: 17px;
 }
 
-
-
-
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
@@ -919,13 +918,10 @@ footer {
    padding-top: 48px;
    margin-bottom: 48px;
    color: #303030;
-   font-size: 14px;
+   font-size: 8px;
    text-align: center;
    position: relative;
 }
-
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
 footer .copyright {
@@ -937,8 +933,8 @@ footer .copyright li {
     display: inline-block;
     margin: 0;
     padding: 0;
-    line-height: 24px;
-    font-size: x-large;
+    line-height: 15px;
+    font-size: large;
     font-weight: bold;
     color:rgb(255, 255, 255)
 }

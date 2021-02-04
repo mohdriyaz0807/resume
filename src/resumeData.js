@@ -1,7 +1,7 @@
 let resumedata= {
     "name":"Mohamed Riyaz",
-    "description":"Full Stack Web Developer and Designer",
-    "image":"",
+    "description":"Full Stack Developer",
+    "image":"dp.jpg",
     "bio":"I am a Full Stack developer and I use reactjs and nodejs to develop Web projects. Learning through Practice keeps me Motivated to upskill my knowledge and currently looking for a full time oppurtunity",
     "contactmessage":"Contact Me! I can give you the Best.",
     "email": "mailto:mohdriyaz0807@gmail.com",
@@ -36,27 +36,33 @@ let resumedata= {
     "skills":[
       {
         "name":"HTML",
-        "icon":"html-5.png"
+        "icon":"html-5.png",
+        "percent":"90"
       },
       {
         "name":"CSS",
-        "icon":"css.png"
+        "icon":"css.png",
+        "percent":"90"
       },
       {
         "name":"Javascript",
-        "icon":"javascript.png"
+        "icon":"javascript.png",
+        "percent":"80"
       },
       {
         "name":"ReactJs",
-        "icon":"structure.png"
+        "icon":"structure.png",
+        "percent":"70"
       },
       {
         "name":"NodeJs",
-        "icon":"nodejs.png"
+        "icon":"nodejs.png",
+        "percent":"70"
       },
       {
         "name":"MongoDB",
-        "icon":"mongodb.png"
+        "icon":"mongodb.png",
+        "percent":"70"
       }
     ]
   },
