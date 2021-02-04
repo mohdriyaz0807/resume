@@ -16,15 +16,17 @@ class About extends Component {
             <h1 >About Me</h1>
       </div>
       </div>
+      <div>
       <div className='row'>
-         <div className="eight columns main-col">
+         <div className="six columns main-col profile-pic">
+            <img src={profilepic} alt="Profile Pic" />
+         </div>
+         <div className="six columns main-col">
             <h2>{bio}</h2>
             <div className="buttonDiv">
             <a href={resumeDownload} target="_blank" className="res-button"><i className="fa fa-file"></i>  Resume</a>
          </div>
          </div>
-         <div className="four columns">
-            <img className="profile-pic"  src={profilepic} alt="Profile Pic" />
          </div>
       </div>
    </section>

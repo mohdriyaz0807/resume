@@ -140,8 +140,8 @@ header .scrolldown a:hover { color: #0762f9; }
 .opaque { background-color: rgb(50, 100, 43); }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none;background-color: #ffffff }
-#nav-wrap > a.mobile-btn:hover{background-color: greenyellow;}
+#nav-wrap > a.mobile-btn { display: none;background-color: #44ff00 }
+#nav-wrap > a.mobile-btn:hover{background-color: #000000;}
 ul#nav {
    min-height: 48px;
    width: auto;
@@ -177,7 +177,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; color:yellow}
-ul#nav li a:hover { color: rgb(69, 250, 53); }
+ul#nav li a:hover { color: #45fa35; }
 
 
 /* ------------------------------------------------------------------ */
@@ -188,18 +188,19 @@ ul#nav li a:hover { color: rgb(69, 250, 53); }
    background: #000524;
    padding-top: 96px;
    padding-bottom: 66px;
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #0762f9; }
 #about .head{
    text-align:center;
-   padding-bottom: 10px;
+   padding:10px;
    font-size: xx-large;
 }
 #about .buttonDiv{
-   padding-top: 35px;
+   padding-top: 30px;
+   margin:auto;
 }
 #about h1 {
    font: 35px/45x 'opensans-bold', sans-serif;
@@ -210,12 +211,13 @@ ul#nav li a:hover { color: rgb(69, 250, 53); }
    font: 18px/28px 'opensans-bold', sans-serif;
    line-height: 30px;
    color: #fff;
+}#about .profile-pic img{
+   border-radius: 50%;
+   width: 300px;
+   height: 290px;
 }
 #about .profile-pic {
    position: relative;
-   width: 270px;
-   height: 250px;
-   border-radius: 50%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -227,6 +229,7 @@ ul#nav li a:hover { color: rgb(69, 250, 53); }
    margin-top: 6px;
    background: #444;
 }
+
 #about .download .button:hover {
    background: #fff;
    color: #2B2B2B;
@@ -1026,7 +1029,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .fa-github, .fa-linkedin, .fa-envelope{
    color: rgb(25, 255, 25);
-   font-size: 150%;
+   font-size: 200%;
 }
 .fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover{
    color:black
