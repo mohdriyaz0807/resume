@@ -9,7 +9,7 @@ const Skill = (props) => {
         var percent = skills.percent
         return (
           <div className='two columns' key={skills.name}>
-            <div className='progress'>{skills.name} - {percent}%</div>
+            <div className='progress'>{skills.name}- {percent}%</div>
             <CircularProgressbarWithChildren counterClockwise   value={percent}>
             <img className='icon' src={icon} alt={skills.name} />
             </CircularProgressbarWithChildren>

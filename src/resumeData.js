@@ -37,17 +37,17 @@ let resumedata= {
       {
         "name":"HTML",
         "icon":"html-5.png",
-        "percent":"90"
+        "percent":"80"
       },
       {
         "name":"CSS",
         "icon":"css.png",
-        "percent":"90"
+        "percent":"60"
       },
       {
         "name":"Javascript",
         "icon":"javascript.png",
-        "percent":"80"
+        "percent":"60"
       },
       {
         "name":"ReactJs",
@@ -60,7 +60,7 @@ let resumedata= {
         "percent":"70"
       },
       {
-        "name":"MongoDB",
+        "name":"Mongodb",
         "icon":"mongodb.png",
         "percent":"70"
       }
