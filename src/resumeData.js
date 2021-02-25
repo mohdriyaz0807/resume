@@ -100,6 +100,14 @@ let resumedata= {
         "deployed":"https://url-shortener-frontend-jwt.netlify.app/",
         "stack":['HTML','CSS','JAVASCRIPT']
       },
+      {
+        "title":"Food Receipe Finder",
+        "category":"A Food receipe search website where you can view ingridients,nutrients and sources",
+        "image":"food.PNG",
+        "github":"https://github.com/mohdriyaz0807/works/tree/main/day15/EDAMAM",
+        "deployed":"https://suspicious-haibt-28bf27.netlify.app/",
+        "stack":['HTML','CSS','JAVASCRIPT']
+      },
     ]
   }
 }
