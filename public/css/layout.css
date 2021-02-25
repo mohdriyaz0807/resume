@@ -185,8 +185,7 @@ ul#nav li a:hover { color: #45fa35; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #ffffff;
-   color: #000000 ;
+   background: #424e50;
    padding-top: 96px;
    padding-bottom: 66px;
    /* overflow: hidden; */
@@ -246,7 +245,7 @@ ul#nav li a:hover { color: #45fa35; }
 /* ------------------------------------------------------------------ */
 
 #Exp {
-   background: rgb(66, 78, 80);
+   background: #424e50;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
