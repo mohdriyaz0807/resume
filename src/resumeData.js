@@ -42,17 +42,17 @@ let resumedata= {
       {
         "name":"CSS",
         "icon":"css.png",
-        "percent":"60"
+        "percent":"70"
       },
       {
         "name":"Javascript",
         "icon":"javascript.png",
-        "percent":"60"
+        "percent":"70"
       },
       {
         "name":"ReactJs",
         "icon":"structure.png",
-        "percent":"70"
+        "percent":"80"
       },
       {
         "name":"NodeJs",
